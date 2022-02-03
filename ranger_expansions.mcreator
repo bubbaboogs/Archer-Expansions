@@ -33,26 +33,6 @@
       "registry_name": "arrow_entities"
     },
     {
-      "name": "WarpBowWhileProjectileFlyingTick",
-      "type": "procedure",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "warp_bow_while_projectile_flying_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "WarpBow",
       "type": "rangeditem",
       "sortid": 6,
