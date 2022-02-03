@@ -102,7 +102,7 @@ public class WarpBowEntity extends AbstractArrow implements ItemSupplier {
 		double d3 = target.getZ() - entity.getZ();
 		entityarrow.shoot(d1, d0 - entityarrow.getY() + Math.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setBaseDamage(0);
+		entityarrow.setBaseDamage(6);
 		entityarrow.setKnockback(5);
 		entityarrow.setCritArrow(true);
 		entity.level.addFreshEntity(entityarrow);

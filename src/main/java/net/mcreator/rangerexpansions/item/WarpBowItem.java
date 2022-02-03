@@ -69,7 +69,7 @@ public class WarpBowItem extends Item {
 					}
 				}
 				if (entity.getAbilities().instabuild || stack != ItemStack.EMPTY) {
-					WarpBowEntity entityarrow = WarpBowEntity.shoot(world, entity, world.getRandom(), 1f, 0, 5);
+					WarpBowEntity entityarrow = WarpBowEntity.shoot(world, entity, world.getRandom(), 1f, 6, 5);
 					itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 					if (entity.getAbilities().instabuild) {
 						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;

@@ -69,7 +69,7 @@ public class ShortBowItem extends Item {
 					}
 				}
 				if (entity.getAbilities().instabuild || stack != ItemStack.EMPTY) {
-					ShortBowEntity entityarrow = ShortBowEntity.shoot(world, entity, world.getRandom(), 1f, 2, 5);
+					ShortBowEntity entityarrow = ShortBowEntity.shoot(world, entity, world.getRandom(), 2f, 2, 5);
 					itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 					if (entity.getAbilities().instabuild) {
 						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;

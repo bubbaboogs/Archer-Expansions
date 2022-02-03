@@ -25,13 +25,13 @@
     "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 1.0,
-    "bulletPower": 1.0,
+    "bulletPower": 2.0,
     "bulletDamage": 2.0,
     "bulletKnockback": 5,
     "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": "CUSTOM:RedstoneArrow"
+      "value": "Items.ARROW"
     },
     "bulletModel": "Default",
     "customBulletModelTexture": ""

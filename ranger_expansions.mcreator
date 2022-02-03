@@ -75,6 +75,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "warp_bow_craft"
+    },
+    {
+      "name": "ShortBowCraft",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "short_bow_craft"
     }
   ],
   "variable_elements": [],
