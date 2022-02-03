@@ -67,6 +67,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "WarpBowCraft",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warp_bow_craft"
     }
   ],
   "variable_elements": [],

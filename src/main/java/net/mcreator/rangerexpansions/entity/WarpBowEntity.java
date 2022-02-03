@@ -20,6 +20,7 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.rangerexpansions.procedures.WarpBowProjectileHitsBlockProcedure;
 import net.mcreator.rangerexpansions.init.RangerExpansionsModEntities;
 
 import java.util.Random;
@@ -55,7 +56,7 @@ public class WarpBowEntity extends AbstractArrow implements ItemSupplier {
 
 	@Override
 	protected ItemStack getPickupItem() {
-		return new ItemStack(Items.ENDER_PEARL);
+		return new ItemStack(Items.ARROW);
 	}
 
 	@Override
@@ -74,6 +75,8 @@ public class WarpBowEntity extends AbstractArrow implements ItemSupplier {
 		Entity entity = this.getOwner();
 		Entity imediatesourceentity = this;
 		if (this.inGround) {
+
+			WarpBowProjectileHitsBlockProcedure.execute(x, y, z, entity);
 			this.discard();
 		}
 	}
