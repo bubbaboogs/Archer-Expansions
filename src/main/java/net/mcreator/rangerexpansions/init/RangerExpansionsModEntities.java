@@ -14,6 +14,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.rangerexpansions.entity.WarpBowEntity;
 import net.mcreator.rangerexpansions.entity.ShortBowEntity;
 
 import java.util.List;
@@ -24,6 +25,9 @@ public class RangerExpansionsModEntities {
 	private static final List<EntityType<?>> REGISTRY = new ArrayList<>();
 	public static final EntityType<ShortBowEntity> SHORT_BOW = register("entitybulletshort_bow",
 			EntityType.Builder.<ShortBowEntity>of(ShortBowEntity::new, MobCategory.MISC).setCustomClientFactory(ShortBowEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<WarpBowEntity> WARP_BOW = register("entitybulletwarp_bow",
+			EntityType.Builder.<WarpBowEntity>of(WarpBowEntity::new, MobCategory.MISC).setCustomClientFactory(WarpBowEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {

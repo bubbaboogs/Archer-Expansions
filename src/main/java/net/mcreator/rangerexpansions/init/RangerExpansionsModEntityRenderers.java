@@ -16,5 +16,6 @@ public class RangerExpansionsModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(RangerExpansionsModEntities.SHORT_BOW, ThrownItemRenderer::new);
+		event.registerEntityRenderer(RangerExpansionsModEntities.WARP_BOW, ThrownItemRenderer::new);
 	}
 }

@@ -51,6 +51,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "WarpBow",
+      "type": "rangeditem",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warp_bow"
     }
   ],
   "variable_elements": [],
@@ -58,6 +66,7 @@
   "language_map": {
     "en_us": {
       "item.ranger_expansions.redstone_arrow": "Redstone Arrow",
+      "item.ranger_expansions.warp_bow": "Warp Bow",
       "item.ranger_expansions.short_bow": "Short Bow"
     }
   },

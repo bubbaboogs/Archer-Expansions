@@ -10,6 +10,7 @@ import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.rangerexpansions.item.WarpBowItem;
 import net.mcreator.rangerexpansions.item.ShortBowItem;
 import net.mcreator.rangerexpansions.item.RedstoneArrowItem;
 
@@ -21,6 +22,7 @@ public class RangerExpansionsModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
 	public static final Item SHORT_BOW = register(new ShortBowItem());
 	public static final Item REDSTONE_ARROW = register(new RedstoneArrowItem());
+	public static final Item WARP_BOW = register(new WarpBowItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
