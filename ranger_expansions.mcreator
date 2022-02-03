@@ -1,0 +1,67 @@
+{
+  "mod_elements": [
+    {
+      "name": "ShortBow",
+      "type": "rangeditem",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "short_bow"
+    },
+    {
+      "name": "ArrowItems",
+      "type": "tag",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_items"
+    },
+    {
+      "name": "RedstoneArrow",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_arrow"
+    },
+    {
+      "name": "ArrowEntities",
+      "type": "tag",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_entities"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.ranger_expansions.redstone_arrow": "Redstone Arrow",
+      "item.ranger_expansions.short_bow": "Short Bow"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ranger_expansions",
+    "modName": "Ranger Expansions",
+    "version": "1.0.0",
+    "author": "DEA, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.rangerexpansions",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}
