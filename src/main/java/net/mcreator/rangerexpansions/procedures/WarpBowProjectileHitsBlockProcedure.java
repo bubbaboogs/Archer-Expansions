@@ -6,11 +6,11 @@ import net.minecraft.server.level.ServerPlayer;
 import java.util.Collections;
 
 public class WarpBowProjectileHitsBlockProcedure {
-	public static void execute(double x, double y, double z, Entity sourceentity) {
-		if (sourceentity == null)
+	public static void execute(double x, double y, double z, Entity entity) {
+		if (entity == null)
 			return;
 		{
-			Entity _ent = sourceentity;
+			Entity _ent = entity;
 			_ent.teleportTo(x, y, z);
 			if (_ent instanceof ServerPlayer _serverPlayer) {
 				_serverPlayer.connection.teleport(x, y, z, _ent.getYRot(), _ent.getXRot(), Collections.emptySet());
