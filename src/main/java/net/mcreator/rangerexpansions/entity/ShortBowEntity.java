@@ -8,7 +8,6 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.ItemSupplier;
 import net.minecraft.world.entity.projectile.AbstractArrow;
@@ -20,6 +19,7 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.rangerexpansions.init.RangerExpansionsModItems;
 import net.mcreator.rangerexpansions.init.RangerExpansionsModEntities;
 
 import java.util.Random;
@@ -50,12 +50,12 @@ public class ShortBowEntity extends AbstractArrow implements ItemSupplier {
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(Items.ARROW);
+		return new ItemStack(RangerExpansionsModItems.REDSTONE_ARROW);
 	}
 
 	@Override
 	protected ItemStack getPickupItem() {
-		return new ItemStack(Items.ARROW);
+		return new ItemStack(RangerExpansionsModItems.REDSTONE_ARROW);
 	}
 
 	@Override
