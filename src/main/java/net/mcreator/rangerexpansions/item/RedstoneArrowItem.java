@@ -26,6 +26,6 @@ public class RedstoneArrowItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("More Powerful Arrow"));
+		list.add(new TextComponent("Goes with a shortbow"));
 	}
 }
