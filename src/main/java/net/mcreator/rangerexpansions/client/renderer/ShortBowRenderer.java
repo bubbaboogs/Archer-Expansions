@@ -16,7 +16,7 @@ import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
 public class ShortBowRenderer extends EntityRenderer<ShortBowEntity> {
-	private static final ResourceLocation texture = new ResourceLocation("ranger_expansions:textures/texture.png");
+	private static final ResourceLocation texture = new ResourceLocation("ranger_expansions:textures/redstone_arrow.png");
 	private final ModelRedstone_Arrow model;
 
 	public ShortBowRenderer(EntityRendererProvider.Context context) {

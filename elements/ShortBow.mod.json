@@ -34,6 +34,6 @@
       "value": "CUSTOM:RedstoneArrow"
     },
     "bulletModel": "ModelRedstone_Arrow",
-    "customBulletModelTexture": "texture.png"
+    "customBulletModelTexture": "redstone_arrow.png"
   }
 }

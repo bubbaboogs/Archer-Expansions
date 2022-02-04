@@ -131,6 +131,17 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "repaired_bow_core"
+    },
+    {
+      "name": "Crafting",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
