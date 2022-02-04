@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.mcreator.rangerexpansions.item.WarpBowItem;
 import net.mcreator.rangerexpansions.item.ShortBowItem;
 import net.mcreator.rangerexpansions.item.RedstoneArrowItem;
+import net.mcreator.rangerexpansions.item.BowFragmentItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -23,6 +24,7 @@ public class RangerExpansionsModItems {
 	public static final Item SHORT_BOW = register(new ShortBowItem());
 	public static final Item REDSTONE_ARROW = register(new RedstoneArrowItem());
 	public static final Item WARP_BOW = register(new WarpBowItem());
+	public static final Item BOW_FRAGMENT = register(new BowFragmentItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

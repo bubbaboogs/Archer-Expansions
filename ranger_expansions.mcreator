@@ -83,6 +83,46 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "short_bow_craft"
+    },
+    {
+      "name": "BowFragment",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bow_fragment"
+    },
+    {
+      "name": "BowFragDrop",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bow_frag_drop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -90,6 +130,7 @@
   "language_map": {
     "en_us": {
       "item.ranger_expansions.redstone_arrow": "Redstone Arrow",
+      "item.ranger_expansions.bow_fragment": "Bow Fragment",
       "item.ranger_expansions.warp_bow": "Warp Bow",
       "item.ranger_expansions.short_bow": "Short Bow"
     }
