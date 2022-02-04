@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.rangerexpansions.item.WarpBowItem;
 import net.mcreator.rangerexpansions.item.ShortBowItem;
+import net.mcreator.rangerexpansions.item.RepairedBowCoreItem;
 import net.mcreator.rangerexpansions.item.RedstoneArrowItem;
 import net.mcreator.rangerexpansions.item.BowFragmentItem;
 
@@ -25,6 +26,7 @@ public class RangerExpansionsModItems {
 	public static final Item REDSTONE_ARROW = register(new RedstoneArrowItem());
 	public static final Item WARP_BOW = register(new WarpBowItem());
 	public static final Item BOW_FRAGMENT = register(new BowFragmentItem());
+	public static final Item REPAIRED_BOW_CORE = register(new RepairedBowCoreItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

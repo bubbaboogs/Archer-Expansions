@@ -123,6 +123,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "RepairedBowCore",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repaired_bow_core"
     }
   ],
   "variable_elements": [],
@@ -132,7 +140,8 @@
       "item.ranger_expansions.redstone_arrow": "Redstone Arrow",
       "item.ranger_expansions.bow_fragment": "Bow Fragment",
       "item.ranger_expansions.warp_bow": "Warp Bow",
-      "item.ranger_expansions.short_bow": "Short Bow"
+      "item.ranger_expansions.short_bow": "Short Bow",
+      "item.ranger_expansions.repaired_bow_core": "Repaired Bow Core"
     }
   },
   "foldersRoot": {
